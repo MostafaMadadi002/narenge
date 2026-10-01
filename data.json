@@ -1,0 +1,286 @@
+{
+  "is_setup_completed": true,
+  "managers": [
+    {
+      "username": "Mostafa",
+      "password": "123456",
+      "name": "مصطفی (مدیریت کل)",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=300"
+    },
+    {
+      "username": "manager",
+      "password": "password123",
+      "name": "مدیر داخلی",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=300"
+    }
+  ],
+  "staff": [
+    {
+      "username": "ZN-101",
+      "password": "123",
+      "name": "احمد بلال هروی",
+      "role": "waiter",
+      "phone": "+93 799 112 233",
+      "salary": "۲۸,۰۰۰ AFN",
+      "shift": "شیفت شامگاهی (۱۶:۳۰ - ۲۳:۳۰)",
+      "status": "online",
+      "rating": "۴.۹",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=300"
+    },
+    {
+      "username": "ZN-102",
+      "password": "123",
+      "name": "استاد غلام‌سخی شیرپور",
+      "role": "chef",
+      "phone": "+93 788 445 566",
+      "salary": "۴۵,۰۰۰ AFN",
+      "shift": "شیفت چاشت و شام (۱۰:۰۰ - ۲۲:۰۰)",
+      "status": "online",
+      "rating": "۵.۰",
+      "image": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&q=80&w=300"
+    },
+    {
+      "username": "ZN-103",
+      "password": "123",
+      "name": "فرشته صمدی",
+      "role": "cashier",
+      "phone": "+93 777 889 900",
+      "salary": "۳۲,۰۰۰ AFN",
+      "shift": "شیفت شامگاهی (۱۵:۰۰ - ۲۳:۳۰)",
+      "status": "online",
+      "rating": "۴.۸",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=300"
+    }
+  ],
+  "stations": [
+    "grill",
+    "pots",
+    "tandoor",
+    "plating"
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "name": "قابلی پلو شاهانه با ماهیچه بره",
+      "price": 520,
+      "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&q=80&w=600",
+      "desc": "ماهیچه بره، خلال زردک سرخ‌شده، کشمش سیاه، خلال پسته و بادام اعلا",
+      "loyalty_points": 52,
+      "station": "pots"
+    },
+    {
+      "id": 2,
+      "name": "چپلی کباب چاریکار",
+      "price": 380,
+      "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=600",
+      "desc": "گوشت چرخ‌کرده گوساله و قلوه‌گاه، دانه انار کوهی، فلفل سبز تند",
+      "loyalty_points": 38,
+      "station": "grill"
+    },
+    {
+      "id": 3,
+      "name": "منتو اصیل هراتی",
+      "price": 340,
+      "image": "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?auto=format&fit=crop&q=80&w=600",
+      "desc": "لقمه‌های بخارپز گوشت گوسفندی با چکه معطر سیردار و سس دال‌نخود",
+      "loyalty_points": 34,
+      "station": "plating"
+    },
+    {
+      "id": 4,
+      "name": "بولانی گندنه داغ",
+      "price": 140,
+      "image": "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?auto=format&fit=crop&q=80&w=600",
+      "desc": "خمیر دست‌پیچ نازک، تره گندنه محلی، سیب‌زمینی بخارپز",
+      "loyalty_points": 14,
+      "station": "tandoor"
+    },
+    {
+      "id": 5,
+      "name": "کباب چوپان راسته",
+      "price": 700,
+      "image": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=600",
+      "desc": "راسته گوسفندی اعلا خوابانده در ماست ترش، دنبه لذیذ و سماق تازه",
+      "loyalty_points": 70,
+      "station": "grill"
+    },
+    {
+      "id": 6,
+      "name": "چای سبز و هل زعفرانی",
+      "price": 120,
+      "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&q=80&w=600",
+      "desc": "قوری دو نفره سرگل بهاره، غنچه هل سبز، تار زعفران سرگل غوری",
+      "loyalty_points": 12,
+      "station": "plating"
+    }
+  ],
+  "tables": [
+    { "id": "t1", "name": "میز ۱ سالن اصلی", "capacity": 4, "current_guests": 4, "section": "اصلی", "assigned_waiter": "ZN-101", "status": "occupied", "qr_token": "zn_qr_t1_89f3a1" },
+    { "id": "t2", "name": "میز ۲ سالن اصلی", "capacity": 4, "current_guests": 0, "section": "اصلی", "assigned_waiter": "ZN-101", "status": "free", "qr_token": "zn_qr_t2_44b2c8" },
+    { "id": "t3", "name": "تخت ۳ پامیر", "capacity": 6, "current_guests": 6, "section": "تخت سنتی", "assigned_waiter": "ZN-101", "status": "occupied", "qr_token": "zn_qr_t3_91e5d7" },
+    { "id": "t4", "name": "تخت ۴ پامیر", "capacity": 6, "current_guests": 0, "section": "تخت سنتی", "assigned_waiter": "ZN-101", "status": "cleaning", "qr_token": "zn_qr_t4_32a7e4" },
+    { "id": "t5", "name": "میز ۵ تراس", "capacity": 4, "current_guests": 0, "section": "تراس", "assigned_waiter": "ZN-101", "status": "free", "qr_token": "zn_qr_t5_77c1f9" },
+    { "id": "t6", "name": "میز ۶ تراس", "capacity": 2, "current_guests": 2, "section": "تراس", "assigned_waiter": "ZN-101", "status": "occupied", "qr_token": "zn_qr_t6_16d8b2" },
+    { "id": "t8", "name": "میز ۸ سالن اصلی", "capacity": 3, "current_guests": 0, "section": "اصلی", "assigned_waiter": "ZN-101", "status": "free", "qr_token": "zn_qr_t8_88b3f1" },
+    { "id": "VIP-1", "name": "سوئیت VIP هرات", "capacity": 10, "current_guests": 8, "section": "VIP", "assigned_waiter": "ZN-101", "status": "occupied", "qr_token": "zn_qr_vip1_55e9a3" },
+    { "id": "VIP-2", "name": "سوئیت VIP بلخ", "capacity": 12, "current_guests": 0, "section": "VIP", "assigned_waiter": "ZN-101", "status": "free", "qr_token": "zn_qr_vip2_88c4b1" }
+  ],
+  "orders": [
+    {
+      "id": "ORD-94A1",
+      "table_id": "t1",
+      "table_name": "میز ۱ سالن اصلی",
+      "seat_number": "1",
+      "guest_count": 4,
+      "assigned_waiter": "ZN-101",
+      "customer_phone": "+93 799 554 332",
+      "customer_name": "حکمت‌الله رسولی",
+      "items": [
+        { "id": "OI-101", "menu_item_id": 1, "name": "قابلی پلو شاهانه با ماهیچه بره", "unit_price": 520, "quantity": 2, "status": "cooking", "chef_note": "خلال زردک و پسته پر پیمانه" },
+        { "id": "OI-102", "menu_item_id": 4, "name": "بولانی گندنه داغ", "unit_price": 140, "quantity": 2, "status": "ready", "chef_note": "چکه و سس تند جداگانه" },
+        { "id": "OI-103", "menu_item_id": 6, "name": "چای سبز و هل زعفرانی", "unit_price": 120, "quantity": 1, "status": "delivered" }
+      ],
+      "created_at": "2026-09-30T22:45:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "ORD-82B3",
+      "table_id": "t3",
+      "table_name": "تخت ۳ پامیر",
+      "seat_number": "1",
+      "guest_count": 6,
+      "assigned_waiter": "ZN-101",
+      "customer_phone": "+93 788 332 110",
+      "customer_name": "حاجی نجیب‌الله غزنوی",
+      "items": [
+        { "id": "OI-104", "menu_item_id": 5, "name": "کباب چوپان راسته", "unit_price": 700, "quantity": 3, "status": "delivered" },
+        { "id": "OI-105", "menu_item_id": 3, "name": "منتو اصیل هراتی", "unit_price": 340, "quantity": 2, "status": "delivered" },
+        { "id": "OI-106", "menu_item_id": 6, "name": "چای سبز و هل زعفرانی", "unit_price": 120, "quantity": 2, "status": "delivered" }
+      ],
+      "created_at": "2026-09-30T22:25:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "ORD-71C5",
+      "table_id": "t6",
+      "table_name": "میز ۶ تراس",
+      "seat_number": "1",
+      "guest_count": 2,
+      "assigned_waiter": "ZN-101",
+      "customer_phone": "+93 770 123 456",
+      "customer_name": "سهراب امینی",
+      "items": [
+        { "id": "OI-107", "menu_item_id": 2, "name": "چپلی کباب چاریکار", "unit_price": 380, "quantity": 2, "status": "cooking", "chef_note": "با نان گرم داغ" },
+        { "id": "OI-108", "menu_item_id": 6, "name": "چای سبز و هل زعفرانی", "unit_price": 120, "quantity": 1, "status": "pending" }
+      ],
+      "created_at": "2026-09-30T23:02:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "ORD-60D8",
+      "table_id": "VIP-1",
+      "table_name": "سوئیت VIP هرات",
+      "seat_number": "1",
+      "guest_count": 8,
+      "assigned_waiter": "ZN-101",
+      "customer_phone": "+93 700 998 877",
+      "customer_name": "خانواده عزیزی",
+      "items": [
+        { "id": "OI-109", "menu_item_id": 1, "name": "قابلی پلو شاهانه با ماهیچه بره", "unit_price": 520, "quantity": 4, "status": "delivered" },
+        { "id": "OI-110", "menu_item_id": 5, "name": "کباب چوپان راسته", "unit_price": 700, "quantity": 4, "status": "delivered" },
+        { "id": "OI-111", "menu_item_id": 3, "name": "منتو اصیل هراتی", "unit_price": 340, "quantity": 3, "status": "delivered" },
+        { "id": "OI-112", "menu_item_id": 6, "name": "چای سبز و هل زعفرانی", "unit_price": 120, "quantity": 3, "status": "delivered" }
+      ],
+      "created_at": "2026-09-30T22:10:00.000Z",
+      "status": "active"
+    },
+    {
+      "id": "ORD-51P0",
+      "table_id": "t2",
+      "table_name": "میز ۲ سالن اصلی",
+      "seat_number": "1",
+      "guest_count": 3,
+      "assigned_waiter": "ZN-101",
+      "customer_name": "انجنیر صمیم",
+      "items": [
+        { "id": "OI-113", "menu_item_id": 1, "name": "قابلی پلو شاهانه با ماهیچه بره", "unit_price": 520, "quantity": 2, "status": "delivered" },
+        { "id": "OI-114", "menu_item_id": 4, "name": "بولانی گندنه داغ", "unit_price": 140, "quantity": 2, "status": "delivered" }
+      ],
+      "created_at": "2026-09-30T21:10:00.000Z",
+      "status": "settled"
+    },
+    {
+      "id": "ORD-42P1",
+      "table_id": "t5",
+      "table_name": "میز ۵ تراس",
+      "seat_number": "1",
+      "guest_count": 4,
+      "assigned_waiter": "ZN-101",
+      "customer_name": "دکتر احسان‌الله",
+      "items": [
+        { "id": "OI-115", "menu_item_id": 2, "name": "چپلی کباب چاریکار", "unit_price": 380, "quantity": 3, "status": "delivered" },
+        { "id": "OI-116", "menu_item_id": 6, "name": "چای سبز و هل زعفرانی", "unit_price": 120, "quantity": 2, "status": "delivered" }
+      ],
+      "created_at": "2026-09-30T21:30:00.000Z",
+      "status": "settled"
+    }
+  ],
+  "table_status": {
+    "t1": "occupied",
+    "t2": "free",
+    "t3": "occupied",
+    "t4": "cleaning",
+    "t5": "free",
+    "t6": "occupied",
+    "t8": "free",
+    "VIP-1": "occupied",
+    "VIP-2": "free"
+  },
+  "customers": [
+    { "phone": "+93 799 554 332", "name": "حکمت‌الله رسولی", "points": 144 },
+    { "phone": "+93 788 332 110", "name": "حاجی نجیب‌الله غزنوی", "points": 302 },
+    { "phone": "+93 770 123 456", "name": "سهراب امینی", "points": 88 },
+    { "phone": "+93 700 998 877", "name": "خانواده عزیزی", "points": 626 }
+  ],
+  "payments": [
+    {
+      "idempotency_key": "pay-settled-1",
+      "table_id": "t2",
+      "seat_number": "1",
+      "amount": 1320,
+      "method": "card",
+      "created_at": "2026-09-30T21:55:00.000Z"
+    },
+    {
+      "idempotency_key": "pay-settled-2",
+      "table_id": "t5",
+      "seat_number": "1",
+      "amount": 1380,
+      "method": "cash",
+      "created_at": "2026-09-30T22:15:00.000Z"
+    }
+  ],
+  "inventory": [
+    { "id": 1, "code": "#INV-8821", "name": "گوشت ران گوسفندی لاندی", "category": "گوشت و پروتئین", "stock": 12, "min_stock": 50, "unit": "کیلوگرم", "unit_price": 620, "expiry": "۱۷ عقرب (۳ روز مانده)" },
+    { "id": 2, "code": "#INV-9043", "name": "زعفران سوپر نگین هرات", "category": "ادویه‌جات و زعفران", "stock": 350, "min_stock": 500, "unit": "گرم", "unit_price": 110, "expiry": "۱ سال اعتبار" },
+    { "id": 3, "code": "#INV-5412", "name": "برنج کهنه اعلای هلمند", "category": "برنج و حبوبات", "stock": 24, "min_stock": 5, "unit": "گونی (۵۰kg)", "unit_price": 4450, "expiry": "۱۸ ماه" },
+    { "id": 4, "code": "#INV-6511", "name": "روغن زرد خالص بومی (حیوانی)", "category": "لبنیات", "stock": 8, "min_stock": 15, "unit": "کیلوگرم", "unit_price": 780, "expiry": "۴ ماه" },
+    { "id": 5, "code": "#INV-2219", "name": "ظروف غذای بیرون‌بر ۲ تکه", "category": "ظروف و بسته‌بندی", "stock": 18, "min_stock": 3, "unit": "کارتن (۵۰۰ عدد)", "unit_price": 2100, "expiry": "فاقد انقضا" }
+  ],
+  "settings": {
+    "branch_name": "زعفران و نارنج • شعبه مرکزی کابل - کارته سه، سرک ۱۵",
+    "phone": "+93 20 250 0100",
+    "tax_percent": 0,
+    "service_charge_percent": 0,
+    "currency": "AFN",
+    "wifi_ssid": "Saffron_Guest_5G",
+    "receipt_header": "رستوران سنتی و شیک زعفران و نارنج",
+    "receipt_footer": "با سپاس از تشریف‌فرمایی شما • نوش جان",
+    "devices": [
+      { "id": "p-kitchen", "name": "پرینتر آشپزخانه مرکزی", "ip": "192.168.1.101", "type": "تیکت‌های غذای گرم و کباب‌ها", "status": "online" },
+      { "id": "p-grill", "name": "پرینتر منقل‌خانه و باربیکیو", "ip": "192.168.1.102", "type": "تیکت سفارش شین‌واری و تکه", "status": "online" },
+      { "id": "p-pos", "name": "پرینتر صندوق و بل مشتری", "ip": "USB High-Speed", "type": "صدور بل حساب نهایی مهمان", "status": "online" },
+      { "id": "pos-terminal", "name": "پایانه بانکی Kabul Bank POS", "ip": "TID: 8840291", "type": "ارسال مستقیم مبلغ به پوز", "status": "online" }
+    ]
+  }
+}

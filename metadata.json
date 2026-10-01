@@ -1,0 +1,6 @@
+{
+  "name": "زعفران و نارنج",
+  "description": "سامانه مدیریت رستوران، صندوق‌دار و آشپزخانه زعفران و نارنج - شعبه مرکزی کابل",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
